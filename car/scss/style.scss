@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+  
+.lamp-container {
+    position: relative;
+  }
+  
+.lamp {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+  
+.lamp:active {
+    transform: scale(0.95); /* Klik edəndə bir az kiçilsin */
+}
